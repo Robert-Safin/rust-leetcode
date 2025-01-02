@@ -5,21 +5,21 @@ use rust_leetcode::problems::{easy, hard, medium};
 
 fn main() {
     // add_problem(
-    //     2559,
-    //     "Count Vowel Strings in Ranges",
-    //     &["Array", "Prefix Sum", "String"],
+    //     347,
+    //     "Top K Frequent Elements",
+    //     &[
+    //         "Array",
+    //         "Hash Table",
+    //         "Divide and Conquer",
+    //         "Sorting",
+    //         "Heap (Priority Queue)",
+    //         "Bucket Sort",
+    //         "Counting",
+    //         "Quickselect",
+    //     ],
     //     "medium",
     // );
 
-    let out = medium::p2559::vowel_strings(
-        vec![
-            "aba".to_string(),
-            "bcb".to_string(),
-            "ece".to_string(),
-            "aa".to_string(),
-            "e".to_string(),
-        ],
-        vec![vec![0, 2], vec![1, 4], vec![1, 1]],
-    );
-    println!("{:?}", out);
+    // let out = medium::p0347::top_k_frequent(vec![4,1,-1,2,-1,2,3], 2);
+    // println!("{:?}", out);
 }
