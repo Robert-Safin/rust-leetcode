@@ -8,3 +8,7 @@ pub mod p2270;
 pub mod p1930;
 pub mod p2381;
 pub mod p1894;
+pub mod p1769;
+pub mod p0739;
+pub mod p0155;
+pub mod p0150;

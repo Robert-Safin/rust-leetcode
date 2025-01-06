@@ -5,9 +5,18 @@ use rust_leetcode::problems::{easy, hard, medium};
 
 fn main() {
     // add_problem(
-    //     1945,
-    //     "Sum of Digits of String After Convert",
-    //     &["String", "Simulation"],
-    //     "easy",
-    // ); "leetcode", k = 2
+    //     150,
+    //     "Evaluate Reverse Polish Notation",
+    //     &["Stack", "Design", "Math"],
+    //     "medium",
+    // );
+    let out = medium::p0150::eval_rpn(vec![
+        "2".to_owned(),
+        "1".to_owned(),
+        "+".to_owned(),
+        "3".to_owned(),
+        "*".to_owned(),
+    ]);
+
+    println!("{:?}", out);
 }
