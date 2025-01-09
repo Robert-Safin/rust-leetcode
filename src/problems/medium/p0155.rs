@@ -1,11 +1,11 @@
 // Problem: Min Stack
 // Tags: Stack, Design
-
+#[allow(dead_code)]
 struct MinStack {
     stack: Vec<i32>,
     mins: Vec<i32>,
 }
-
+#[allow(dead_code)]
 impl MinStack {
     fn new() -> Self {
         MinStack {
