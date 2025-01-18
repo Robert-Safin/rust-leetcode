@@ -5,13 +5,12 @@ use rust_leetcode::problems::{easy, hard, medium};
 
 fn main() {
     // add_problem(
-    //     2657,
-    //     "Find the Prefix Common Array of Two Arrays",
-    //     &["Hash Table", "Array", "Bit Manipulation"],
+    //     300,
+    //     "Longest Increasing Subsequence",
+    //     &["Dynamic Programming", "Array", "Binary Search"],
     //     "medium",
     // );
 
-    let out =
-        medium::p2657::Solution::find_the_prefix_common_array(vec![1, 3, 2, 4], vec![3, 1, 2, 4]);
-    println!("{:?}", out);
+    //let out = medium::p0300::Solution::length_of_lis([10, 9, 2, 5, 3, 7, 1, 101, 18].to_vec());
+    println!("{:?}", 3 ^ 0);
 }
