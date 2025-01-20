@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 #[allow(unused_imports)]
 use rust_leetcode::add_problem::add_problem;
 #[allow(unused_imports)]
@@ -5,12 +7,13 @@ use rust_leetcode::problems::{easy, hard, medium};
 
 fn main() {
     // add_problem(
-    //     300,
-    //     "Longest Increasing Subsequence",
-    //     &["Dynamic Programming", "Array", "Binary Search"],
-    //     "medium",
+    //     206,
+    //     "Reverse Linked List",
+    //     &["Linked List", "Recursion"],
+    //     "easy",
     // );
 
-    //let out = medium::p0300::Solution::length_of_lis([10, 9, 2, 5, 3, 7, 1, 101, 18].to_vec());
-    println!("{:?}", 3 ^ 0);
+    //let out = easy::p0206::Solution::reverse_list(vec![1, 2, 3, 4, 5]);
+
+    //println!("{:?}", out);
 }
